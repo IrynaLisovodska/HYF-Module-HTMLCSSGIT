@@ -1,0 +1,3 @@
+1.To make this file hidden we need to start it with dot (example: touch .filename.txt). There is one more way to do it using command chflags hidden file(folder) name. To list all files, including hidden we use ls-la command
+2.To create multiple nested directories we need to use mkdir -p command (ex: mkdir -p parent dir/child dir/nested child dir) or mkdir -p parent dir/{child dir, nested child...etc}
+3.To create new line inside a file (if it is not allowed to use breaking line element) we can use ECHOcom multiple times with a redirection (single  for the first line and double for a second line) to a file where this text should be written
